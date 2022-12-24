@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".ui.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bottom_round">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/profile"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Austian Dental"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spec. Neurologist"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/white"
+            android:textSize="12sp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:background="@drawable/top_round"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="vertical">
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginBottom="20dp"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@null"
+                                android:hint="@string/username"
+                                app:boxCornerRadiusBottomEnd="30dp"
+                                app:boxCornerRadiusBottomStart="30dp"
+                                app:boxCornerRadiusTopEnd="30dp"
+                                app:boxCornerRadiusTopStart="30dp"
+                                app:boxStrokeWidth="0dp"
+                                app:boxStrokeWidthFocused="0dp"
+                                app:hintAnimationEnabled="false"
+                                app:startIconDrawable="@drawable/usericon">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/ed_username_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@null"
+                                    android:drawableStart="@drawable/usericon" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@null"
+                                android:hint="@string/enter_email"
+                                app:boxCornerRadiusBottomEnd="30dp"
+                                app:boxCornerRadiusBottomStart="30dp"
+                                app:boxCornerRadiusTopEnd="30dp"
+                                app:boxCornerRadiusTopStart="30dp"
+                                app:boxStrokeWidth="0dp"
+                                app:boxStrokeWidthFocused="0dp"
+                                app:hintAnimationEnabled="false"
+                                app:startIconDrawable="@drawable/email_24">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/ed_email_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@null"
+                                    android:drawableStart="@drawable/email_24"
+                                    android:inputType="textEmailAddress" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@null"
+                                android:hint="Mobile number"
+                                app:boxCornerRadiusBottomEnd="30dp"
+                                app:boxCornerRadiusBottomStart="30dp"
+                                app:boxCornerRadiusTopEnd="30dp"
+                                app:boxCornerRadiusTopStart="30dp"
+                                app:boxStrokeWidth="0dp"
+                                app:boxStrokeWidthFocused="0dp"
+                                app:hintAnimationEnabled="false"
+                                app:startIconDrawable="@drawable/refer_and_earn">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/ed_refer_code_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:background="@null"
+                                    android:drawableStart="@drawable/email_24"
+                                    android:inputType="textEmailAddress" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@null"
+                                android:hint="Donation Number"
+                                app:boxCornerRadiusBottomEnd="30dp"
+                                app:boxCornerRadiusBottomStart="30dp"
+                                app:boxCornerRadiusTopEnd="30dp"
+                                app:boxCornerRadiusTopStart="30dp"
+                                app:boxStrokeWidth="0dp"
+                                app:boxStrokeWidthFocused="0dp"
+                                app:hintAnimationEnabled="false"
+                                app:startIconDrawable="@drawable/password_lock_24">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/ed_password_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@null"
+
+                                    android:inputType="number" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                            <com.google.android.material.textfield.TextInputLayout
+                                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:background="@null"
+                                android:hint="User Id"
+                                app:boxCornerRadiusBottomEnd="30dp"
+                                app:boxCornerRadiusBottomStart="30dp"
+                                app:boxCornerRadiusTopEnd="30dp"
+                                app:boxCornerRadiusTopStart="30dp"
+                                app:boxStrokeWidth="0dp"
+                                app:boxStrokeWidthFocused="0dp"
+                                app:hintAnimationEnabled="false"
+                                app:startIconDrawable="@drawable/usericon">
+
+                                <com.google.android.material.textfield.TextInputEditText
+                                    android:id="@+id/ed_userid_reg"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@null"
+
+                                    android:inputType="number" />
+
+                            </com.google.android.material.textfield.TextInputLayout>
+
+                            <com.google.android.material.button.MaterialButton
+                                android:layout_width="match_parent"
+                                android:layout_height="60dp"
+                                android:layout_marginStart="40dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="40dp"
+                                android:text="Log Out"
+                                android:id="@+id/btnSignUp"
+                                android:textAllCaps="false"
+                                android:textSize="20sp"
+                                app:cornerRadius="30dp"
+                                app:elevation="10dp" />
+
+
+                            <com.google.android.material.textview.MaterialTextView
+                                android:id="@+id/tv_login"
+                                android:visibility="gone"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:gravity="center"
+                                android:text="@string/login_now"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+</LinearLayout>

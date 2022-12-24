@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">UserApp</string>
+    <string name="username">Enter your username</string>
+    <string name="login">Sign In Account</string>
+    <string name="password">Enter your password</string>
+    <string name="register_now">If you have no account? <p style="color:red;">Register here</p></string>
+    <string name="enter_email">Enter your email</string>
+    <string name="register">Sign up</string>
+    <string name="login_now">Already have an account? Login now</string>
+    <string name="enter_mobile_number">Enter Mobile Number (Optional)</string>
+    <string name="error_title_network">Network Error</string>
+    <string name="error_network">No internet connectiob</string>
+    <string name="retry">Retry</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+</resources>
